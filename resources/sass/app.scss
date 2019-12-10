@@ -1,0 +1,101 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Icons
+@import url('https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css');
+@import '~material-design-icons-iconfont/dist/material-design-icons.css';
+
+// Variables
+@import 'variables';
+
+// Vuetify CSS
+@import '~vuetify/dist/vuetify.min.css';
+
+
+* {
+	font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code {
+	background-color: rgb(37, 37, 37) !important;
+	color: rgb(37, 37, 37) !important;
+}
+
+code:hover {
+	color: white !important;
+}
+.spoiler {
+	color: rgb(37, 37, 37);
+	background-color: rgb(37, 37, 37);
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.spoiler:hover {
+	color: white;
+}
+.gal {
+	object-fit: cover;
+	height: 200px;
+}
+
+.sticky {
+	position: fixed;
+	top: 60;
+	float: left;
+	height: 85vh;
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
+.style-4::-webkit-scrollbar-track {
+	background-color: #f5f5f5;
+}
+
+.style-4::-webkit-scrollbar {
+	width: 5px;
+	background-color: #f5f5f5;
+}
+
+.style-4::-webkit-scrollbar-thumb {
+	background-color: rgba(155, 155, 155, 0.2);
+	border: 5px solid rgba(155, 155, 155, 0.2);
+}
+
+.ProseMirror {
+    outline: none !important;
+    min-height: 100px;
+    padding: 25px;
+	background: white;
+	border-left: 1px solid #CFD8DC;
+	border-bottom: 1px solid #CFD8DC;
+	border-right: 1px solid #CFD8DC;
+}
+.editor {
+	img {
+		max-width: 100%;
+		padding: 25px;
+	}
+}
+.showPost {
+	p{
+		img{
+			padding: 25px;
+			max-width: 100%;
+		}
+	}
+}
+.small-text {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.reply img, .editreply img, .newreply img {
+	max-width: 100%;
+	padding: 10px;
+	max-height: 200px !important;
+}
+
+.round {
+	border-radius: 5px;
+}
